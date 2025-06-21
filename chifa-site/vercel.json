@@ -1,0 +1,15 @@
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "pnpm install",
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "regions": ["iad1"],
+  "env": {
+    "NODE_ENV": "production"
+  }
+} 

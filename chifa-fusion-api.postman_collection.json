@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+		"name": "Chifa Fusión API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Doe\",\n    \"email\": \"john.doe@example.com\",\n    \"message\": \"Hola, estoy interesado en sus servicios.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/contact",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"contact"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+} 
