@@ -26,7 +26,7 @@ export const TestimoniosSlider = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
-              <p className="text-gray-600 italic mb-4">"{testimonial.quote}"</p>
+              <p className="text-gray-600 italic mb-4">&ldquo;{testimonial.quote}&rdquo;</p>
               <p className="text-gray-800 font-bold text-right">- {testimonial.author}</p>
               <p className="text-gray-500 text-sm text-right">{testimonial.source}</p>
             </div>
